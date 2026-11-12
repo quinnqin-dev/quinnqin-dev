@@ -1,8 +1,8 @@
 # Hi, I'm Quinn
 
-**Small annoyances, useful tools.**
+**Useful tools. Playful experiments.**
 
-I build software to make everyday work less repetitive. A good tool should earn its place by making one annoying task easier.
+I build useful tools and playful experiments. Some start with a small annoyance; others start with a "what if?" I like turning both into something you can try.
 
 This is where I share what I'm building, keep the source, and work through the details.
 
@@ -18,18 +18,18 @@ Merge Excel and CSV files in your browser, save your column mappings, and reuse 
 
 ## How I want to build
 
-- **Start with a real annoyance.** Find the repetitive step worth removing.
-- **Make the useful part easy to reach.** Clear instructions and a working demo matter.
+- **Follow a problem or a spark of curiosity.** A repetitive task and a strange little idea can both be worth exploring.
+- **Make the idea easy to try.** Clear instructions and a working demo matter.
 - **Keep refining.** The awkward steps and rough edges deserve attention too.
 
-The projects may change. The thread stays the same: less repetitive work, more room for the interesting stuff.
+The projects may change. I care about clear ideas, thoughtful details, and software people enjoy using.
 
 ## Follow along
 
 On [X — @QuinnStudioDev](https://x.com/QuinnStudioDev), I share what I ship, what breaks, and what I learn.
 
-If a tool almost fits your workflow, tell me where it falls short. That's useful feedback.
+Tried something I made? Tell me what helped, what felt awkward, or what you'd love to see next.
 
 ---
 
-Turn small annoyances into useful tools. Save time for the interesting stuff.
+Built to be useful. Open to the unexpected.
