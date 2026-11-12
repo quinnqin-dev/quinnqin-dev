@@ -32,4 +32,4 @@ If a tool almost fits your workflow, tell me where it falls short. That's useful
 
 ---
 
-把麻烦变成工具，把时间留给有意思的事。
+Turn small annoyances into useful tools. Save time for the interesting stuff.
