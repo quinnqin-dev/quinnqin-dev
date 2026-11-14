@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "id": "sheet-merger",
+      "name": "Sheet Merger",
+      "category": "tool",
+      "summary": "Merge Excel and CSV files with different column names, then compare spreadsheet versions by record ID.",
+      "details": "Save and reuse column mappings, review added, removed and changed records, and export an Excel report. Files are processed in your browser. Available in English and Simplified Chinese.",
+      "status": "released",
+      "version": "v1.1.1",
+      "featured": true,
+      "primary_destination": "render",
+      "action_label": "Try Sheet Merger",
+      "itch_url": null,
+      "render_url": "https://sheet-merger-80c7.onrender.com/",
+      "video_url": "https://youtu.be/nXHIzqpcvG4",
+      "video_note": "The video demonstrates the merge workflow; version comparison was added later.",
+      "source_url": "https://github.com/quinnqin-dev/sheet-merger",
+      "feedback_url": "https://github.com/quinnqin-dev/sheet-merger/issues"
+    }
+  ]
+}

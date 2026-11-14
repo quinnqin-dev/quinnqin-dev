@@ -4,17 +4,27 @@
 
 I build useful tools and playful experiments. Some start with a small annoyance; others start with a "what if?" I like turning both into something you can try.
 
-This is where I share what I'm building, keep the source, and work through the details.
+Explore my games, tools, and experiments below. Each project links to a working experience or download, with source and demonstrations where available.
 
-## On my workbench
+## Browse the collection
 
-### [Sheet Merger](https://github.com/quinnqin-dev/sheet-merger)
+| [Games](catalog/games.md) | [Tools](catalog/tools.md) | [Experiments](catalog/experiments.md) |
+| --- | --- | --- |
+| Small worlds and puzzles to play. | Software that makes a task easier. | Interactive ideas and curious possibilities. |
 
-Different spreadsheets. Different column names. One consistent output.
+## Featured projects
 
-Merge Excel and CSV files in your browser, save your column mappings, and reuse them next time. Spreadsheet contents stay in your browser. Available in English and Simplified Chinese.
+### Sheet Merger
 
-[Try Sheet Merger](https://sheet-merger-80c7.onrender.com/) · [Source & guide](https://github.com/quinnqin-dev/sheet-merger) · [Report a problem or suggest an improvement](https://github.com/quinnqin-dev/sheet-merger/issues)
+Merge Excel and CSV files with different column names, then compare spreadsheet versions by record ID.
+
+Save and reuse column mappings, review added, removed and changed records, and export an Excel report. Files are processed in your browser. Available in English and Simplified Chinese.
+
+**v1.1.1 · Released**
+
+[Try Sheet Merger](https://sheet-merger-80c7.onrender.com/) · [Watch demo](https://youtu.be/nXHIzqpcvG4) · [Source & guide](https://github.com/quinnqin-dev/sheet-merger) · [Feedback](https://github.com/quinnqin-dev/sheet-merger/issues)
+
+*The video demonstrates the merge workflow; version comparison was added later.*
 
 ## How I want to build
 
@@ -26,7 +36,7 @@ The projects may change. I care about clear ideas, thoughtful details, and softw
 
 ## Follow along
 
-On [X — @QuinnStudioDev](https://x.com/QuinnStudioDev), I share what I ship, what breaks, and what I learn.
+On [X — @QuinnStudioDev](https://x.com/QuinnStudioDev) and [YouTube — Quinn Build](https://www.youtube.com/channel/UCpv7sReq4G47cBU7Br1OIFw), I share what I ship, what breaks, and what I learn.
 
 Tried something I made? Tell me what helped, what felt awkward, or what you'd love to see next.
 
