@@ -26,14 +26,14 @@ for (const p of data.projects) {
     if (typeof p[key] !== 'string' || !p[key].trim() || /[\r\n]/.test(p[key])) throw new Error(`Invalid ${key}: ${p.id}`);
   }
   if (typeof p.featured !== 'boolean') throw new Error(`Invalid featured flag: ${p.id}`);
-  for (const key of ['itch_url', 'render_url', 'video_url', 'source_url', 'feedback_url']) {
+  for (const key of ['itch_url', 'render_url', 'video_url', 'source_url', 'feedback_url', ...('app_url' in p ? ['app_url'] : [])]) {
     if (!(key in p)) throw new Error(`Missing ${key}: ${p.id}`);
     if (p[key] === null) continue;
     if (typeof p[key] !== 'string' || /[\s()<>]/.test(p[key])) throw new Error(`Invalid ${key}: ${p.id}`);
     const url = new URL(p[key]);
     if (url.protocol !== 'https:' || url.username || url.password) throw new Error(`Expected a public HTTPS URL: ${p.id}/${key}`);
   }
-  if (!['itch', 'render'].includes(p.primary_destination) || !p[`${p.primary_destination}_url`]) throw new Error(`Missing primary destination: ${p.id}`);
+  if (!['itch', 'render', 'app'].includes(p.primary_destination) || !p[`${p.primary_destination}_url`]) throw new Error(`Missing primary destination: ${p.id}`);
   if (p.video_url && (typeof p.video_note !== 'string' || !p.video_note.trim() || /[\r\n]/.test(p.video_note))) throw new Error(`Add a demo scope note: ${p.id}`);
 }
 
@@ -49,7 +49,7 @@ function card(p, full = false) {
     '', `**${text(p.version)} · ${statuses.get(p.status)}**`,
     '', actions.join(' · '),
   ];
-  if (full) lines.push('', `**itch.io:** ${p.itch_url ? link('Project page', p.itch_url) : '—'} · **Render:** ${p.render_url ? link('Open app', p.render_url) : '—'}`);
+  if (full) lines.push('', `**itch.io:** ${p.itch_url ? link('Project page', p.itch_url) : '—'} · **App:** ${(p.app_url || p.render_url) ? link('Open app', p.app_url || p.render_url) : '—'}`);
   if (p.video_url) lines.push('', `*${text(p.video_note)}*`);
   return lines.join('\n');
 }

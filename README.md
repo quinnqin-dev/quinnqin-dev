@@ -22,7 +22,7 @@ Save and reuse column mappings, review added, removed and changed records, and e
 
 **v1.1.1 · Released**
 
-[Try Sheet Merger](https://sheet-merger-80c7.onrender.com/) · [Watch demo](https://youtu.be/nXHIzqpcvG4) · [Source & guide](https://github.com/quinnqin-dev/sheet-merger) · [Feedback](https://github.com/quinnqin-dev/sheet-merger/issues)
+[Try Sheet Merger](https://sheet-merger.quinn-qin.workers.dev/) · [Watch demo](https://youtu.be/nXHIzqpcvG4) · [Source & guide](https://github.com/quinnqin-dev/sheet-merger) · [Feedback](https://github.com/quinnqin-dev/sheet-merger/issues)
 
 *The video demonstrates the merge workflow; version comparison was added later.*
 
